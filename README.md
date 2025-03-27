@@ -1,94 +1,89 @@
-# 📊 Dashboard de Optimización de Producción con Programcion Lineal
+# Optimización de Producción con Programación Lineal
+
+Esta proyecto forma parte de la propuesta para el **Genius Arena Hackathon 2025** de **Talent Land**, en el track **"Production Planning: Linear Programming and automation through Python"**, presentado por **Micron**. La propuesta consiste en:
+
+> **System in Python that automates the necessary calculations to balance production with demand, allowing more precise and efficient planning and reducing costs, using linear programming modeling.**
 
 ![Imagen 1](Imagenes/1.png)
 
-## 📌 **Características Principales**
+## 📌 Características Principales
 
-Este Dashboard de Optimización de Producción con Programcion Lineal interactivo, representa una solución avanzada para visualizar y optimizar la producción de semiconductores mediante técnicas de programación lineal. Diseñado con un enfoque elegante y minimalista, el proyecto ofrece insights y KPIs profundos para la toma de decisiones estratégicas en la industria de semiconductores.
+Este Dashboard interactivo representa una propuesta de solución avanzada para visualizar y optimizar la producción de semiconductores mediante técnicas de programación lineal con Python. Con un enfoque elegante y minimalista, el proyecto proporciona insights y KPIs profundos para la toma de decisiones estratégicas en la industria de semiconductores.
 
-El dashboard está construido con un diseño elegante y minimalista, y ofrece visualizaciones interactivas con **Plotly.js**.
-
----
-
-## Características principales:
-
-- **Visualizaciones interactivas con Plotly.js**: Gráficos interactivos que permiten explorar los datos en profundidad y analizar los diferentes aspectos de la producción.
-- **Controles de filtrado y ajuste**: Herramientas que permiten seleccionar períodos de tiempo, productos y ajustar el factor de optimización.
-- **Múltiples tipos de gráficos**:
-  - Gráficos de líneas para pronósticos de demanda.
-  - Gráficos de barras para visualizar la capacidad de producción.
-  - Mapas de calor para la optimización de costos.
-  - Gráficos de dispersión para comparar la producción versus la demanda.
-  - Gráficos de pastel para la distribución de productos.
-  - Superficies 3D para visualizar el espacio de optimización.
-- **Organización por pestañas**: La interfaz está organizada de manera que facilita la navegación entre diferentes vistas y análisis.
+El Dashboard estaria desarrollado con Next.js y React con visualizaciones interactivas utilizando **Plotly**
 
 ---
 
-## Modelo de programación lineal
+## Funcionalidades Propuestas
 
-El modelo de programación lineal implementado en **Python** utiliza la librería **SciPy** para optimizar la producción de semiconductores. El modelo toma en cuenta lo siguiente:
-- Restricciones de recursos como silicio, mano de obra, energía, equipamiento y logística.
+- **Visualizaciones interactivas con Plotly**: Gráficos que permiten explorar y analizar en profundidad diversos aspectos de la producción.
+- **Controles de filtrado y ajuste**: Herramientas para seleccionar períodos de tiempo, productos y ajustar factores de optimización.
+- **Diversidad de gráficos**:
+  - **Líneas**: Para pronósticos de demanda.
+  - **Barras**: Para visualizar la capacidad de producción.
+  - **Mapas de calor**: Para la optimización de costos.
+  - **Dispersión**: Para comparar la producción versus la demanda.
+  - **Pastel**: Para mostrar la distribución de productos.
+  - **Superficies 3D**: Para visualizar el espacio de optimización.
+- **Organización por pestañas**: Navegación intuitiva entre vistas y análisis.
+
+---
+
+## Modelo de Programación Lineal
+
+El modelo de programación lineal, propuesto estaria desarrrollado en **Python**, utilizando las librerias **SciPy**, **PuLP**, y **Scikit-Learn** para optimizar la producción de semiconductores. Considerando:
+
+- Bases de datos SQL, archivos CSV o JSON.
+- Restricciones de recursos (silicio, mano de obra, energía, equipamiento y logística).
 - Demanda máxima por producto.
 - Costos de producción asociados a cada tipo de semiconductor.
 - Beneficios por unidad producida.
 
-El modelo encuentra la combinación óptima de producción que maximiza el beneficio total mientras respeta todas las restricciones.
+El modelo busca la combinación óptima que maximice el beneficio total, respetando todas las restricciones.
 
 ---
 
-## Cómo usar el dashboard
+## Cómo se Podria Utilizar el Dashboard
 
-1. **Selector de Período de Tiempo**: Modifica la granularidad de los datos (semanal, mensual, trimestral o anual) según tus necesidades.
-2. **Ajuste del Factor de Optimización**: Permite observar cómo diferentes estrategias de optimización afectan la producción y los costos.
+1. **Selector de Período de Tiempo**: Ajusta la granularidad de los datos (semanal, mensual, trimestral o anual).
+2. **Ajuste del Factor de Optimización**: Evalúa cómo diferentes estrategias afectan la producción y los costos.
 3. **Selector de Producto**: Filtra los datos por tipo de semiconductor (DRAM, SDRAM, memoria Flash o SSD).
-4. **Explora las diferentes pestañas**:
-   - **Resumen**: Vista general con los gráficos más importantes.
-   - **Demanda**: Análisis detallado de los pronósticos de demanda.
-   - **Producción**: Visualización de la capacidad de producción.
+4. **Navegación por Pestañas**:
+   - **Resumen**: Vista general con gráficos clave.
+   - **Demanda**: Análisis detallado de los pronósticos.
+   - **Producción**: Visualización de la capacidad instalada.
    - **Costos**: Mapa de calor para la optimización de costos.
-   - **Optimización**: Superficie 3D del espacio de solución.
-   - **Distribución**: Muestra la distribución óptima de la producción por tipo de producto.
+   - **Optimización**: Visualización en 3D del espacio de solución.
+   - **Distribución**: Distribución óptima de la producción por producto.
 
 ---
 
-## Tecnologías utilizadas
+## Propuesta de Tecnologías que se Utilizarían
 
-- **React y Next.js**: Para la estructura y funcionalidad del frontend del dashboard.
-- **Tailwind CSS**: Para el diseño y estilo visual.
-- **shadcn/ui**: Para componentes de interfaz de usuario elegantes y modernos.
-- **Plotly.js**: Para visualizaciones interactivas de gráficos.
-- **Python con SciPy**: Para el modelo de programación lineal y optimización de producción (script incluido).
-
----
-
-## Beneficios del dashboard
-
-- **Visualización intuitiva**: Facilita la comprensión de datos complejos y su análisis visual.
-- **Toma de decisiones informada**: Permite ver el impacto de diferentes estrategias de optimización de manera clara.
-- **Optimización de recursos**: Ayuda a identificar la distribución óptima de recursos en la producción de semiconductores.
-- **Planificación estratégica**: Facilita la comparación entre la demanda y la capacidad de producción, mejorando la toma de decisiones a largo plazo.
+- **React y Next.js**: Para la estructura y funcionalidad del frontend.
+- **Tailwind CSS**: En el diseño y estilo visual.
+- **shadcn/ui**: Para componentes de interfaz modernos.
+- **Plotly.js**: En la creación de visualizaciones interactivas.
+- **Python con SciPy, PuLP, y Scikit-Learn**: Para el desarrollo del modelo de programación lineal y la optimización de la producción.
 
 ---
 
-## Imagenes
+## Beneficios del Dashboard
 
-![Imagen 1](Imagenes/1.png)
+- **Visualización intuitiva**: Facilita la comprensión y análisis de datos complejos.
+- **Decisiones informadas**: Muestra el impacto de diferentes estrategias de optimización de forma clara.
+- **Optimización de recursos**: Identifica la mejor distribución de recursos en la producción.
+- **Planificación estratégica**: Permite comparar la demanda con la capacidad productiva, mejorando la toma de decisiones a largo plazo.
 
-![Imagen 2](Imagenes/2.png)
+---
 
-![Imagen 3](Imagenes/3.png)
+## Galería de Imágenes
 
-![Imagen 4](Imagenes/4.png)
-
-![Imagen 5](Imagenes/5.png)
-
+![Imagen 1](Imagenes/1.png)  
+![Imagen 2](Imagenes/2.png)  
+![Imagen 3](Imagenes/3.png)  
+![Imagen 4](Imagenes/4.png)  
+![Imagen 5](Imagenes/5.png)  
 ![Imagen 6](Imagenes/6.png)
-
----
-
-## **Licencia**
-
-Este proyecto está licenciado bajo la [Licencia GNU](LICENSE).
 
 ---
