@@ -1,0 +1,263 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram id="codeviz-diagram" name="System Diagram">
+    <mxGraphModel dx="1434" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="subGraph5" value="" style="html=1;whiteSpace=wrap;container=1;dashed=1;fillOpacity=20;strokeWidth=2;containerType=none;recursiveResize=0;movable=1;resizable=1;autosize=0;dropTarget=0;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1412" y="1067" width="580" height="435" as="geometry" />
+        </mxCell>
+        <mxCell id="subGraph4" value="" style="html=1;whiteSpace=wrap;container=1;dashed=1;fillOpacity=20;strokeWidth=2;containerType=none;recursiveResize=0;movable=1;resizable=1;autosize=0;dropTarget=0;labelBackgroundColor=none;" parent="subGraph5" vertex="1">
+          <mxGeometry x="50" y="195" width="520" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ProductionOptimizer" value="Production Optimizer&lt;br&gt;(NumPy)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="subGraph4" vertex="1">
+          <mxGeometry x="180" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ResourceAllocation" value="Resource Allocation&lt;br&gt;(SciPy)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="subGraph4" vertex="1">
+          <mxGeometry x="320" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CostCalculator" value="Cost Calculator&lt;br&gt;(NumPy)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="subGraph4" vertex="1">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subGraph4_label" value="Optimization Components" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;labelBackgroundColor=none;spacing=5" parent="subGraph5" vertex="1">
+          <mxGeometry x="58" y="203" width="444" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="OptimizationEngine" value="Linear Programming Engine&lt;br&gt;(Python/SciPy)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="subGraph5" vertex="1">
+          <mxGeometry x="220" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subGraph5_label" value="Backend Services" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;labelBackgroundColor=none;spacing=5" parent="1" vertex="1">
+          <mxGeometry x="1420" y="1075" width="504" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="subGraph3" value="" style="html=1;whiteSpace=wrap;container=1;dashed=1;fillOpacity=20;strokeWidth=2;containerType=none;recursiveResize=0;movable=1;resizable=1;autosize=0;dropTarget=0;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="32" y="187" width="2002" height="957" as="geometry" />
+        </mxCell>
+        <mxCell id="subGraph2" value="" style="html=1;whiteSpace=wrap;container=1;dashed=1;fillOpacity=20;strokeWidth=2;containerType=none;recursiveResize=0;movable=1;resizable=1;autosize=0;dropTarget=0;labelBackgroundColor=none;" parent="subGraph3" vertex="1">
+          <mxGeometry x="50" y="195" width="1930" height="565" as="geometry" />
+        </mxCell>
+        <mxCell id="subGraph1" value="" style="html=1;whiteSpace=wrap;container=1;dashed=1;fillOpacity=20;strokeWidth=2;containerType=none;recursiveResize=0;movable=1;resizable=1;autosize=0;dropTarget=0;labelBackgroundColor=none;" parent="subGraph2" vertex="1">
+          <mxGeometry x="190" y="325" width="800" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Tabs" value="Tabs&lt;br&gt;(RadixUI)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="subGraph1" vertex="1">
+          <mxGeometry x="180" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cards" value="Cards&lt;br&gt;(RadixUI)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="subGraph1" vertex="1">
+          <mxGeometry x="320" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Select" value="Select&lt;br&gt;(RadixUI)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="subGraph1" vertex="1">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Slider" value="Slider&lt;br&gt;(RadixUI)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="subGraph1" vertex="1">
+          <mxGeometry x="460" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Button" value="Button&lt;br&gt;(RadixUI)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="subGraph1" vertex="1">
+          <mxGeometry x="600" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subGraph1_label" value="UI Components" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;labelBackgroundColor=none;spacing=5" parent="subGraph2" vertex="1">
+          <mxGeometry x="198" y="333" width="724" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="subGraph0" value="" style="html=1;whiteSpace=wrap;container=1;dashed=1;fillOpacity=20;strokeWidth=2;containerType=none;recursiveResize=0;movable=1;resizable=1;autosize=0;dropTarget=0;labelBackgroundColor=none;" parent="subGraph2" vertex="1">
+          <mxGeometry x="970" y="325" width="940" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="OptimizationChart" value="Optimization Surface Chart&lt;br&gt;(Plotly.js)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="subGraph0" vertex="1">
+          <mxGeometry x="740" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ProductionDemandChart" value="Production vs Demand Chart&lt;br&gt;(Plotly.js)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="subGraph0" vertex="1">
+          <mxGeometry x="600" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CostOptChart" value="Cost Optimization Chart&lt;br&gt;(Plotly.js)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="subGraph0" vertex="1">
+          <mxGeometry x="460" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DemandForecastChart" value="Demand Forecast Chart&lt;br&gt;(Plotly.js)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="subGraph0" vertex="1">
+          <mxGeometry x="180" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ProductionCapacityChart" value="Production Capacity Chart&lt;br&gt;(Plotly.js)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="subGraph0" vertex="1">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ProductDistributionChart" value="Product Distribution Chart&lt;br&gt;(Plotly.js)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="subGraph0" vertex="1">
+          <mxGeometry x="320" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subGraph0_label" value="Visualization Components" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;labelBackgroundColor=none;spacing=5" parent="subGraph2" vertex="1">
+          <mxGeometry x="978" y="333" width="864" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Dashboard" value="Dashboard&lt;br&gt;(React)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="subGraph2" vertex="1">
+          <mxGeometry x="90.76923076923077" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ThemeProvider" value="Theme Provider&lt;br&gt;(next-themes)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="subGraph2" vertex="1">
+          <mxGeometry x="40" y="355" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subGraph2_label" value="Core Components" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;labelBackgroundColor=none;spacing=5" parent="subGraph3" vertex="1">
+          <mxGeometry x="58" y="203" width="1854" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="NextApp" value="Next.js Application&lt;br&gt;(Next.js)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="subGraph3" vertex="1">
+          <mxGeometry x="130.76923076923077" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subGraph3_label" value="Frontend Application" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;labelBackgroundColor=none;spacing=5" parent="1" vertex="1">
+          <mxGeometry x="40" y="195" width="1926" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="User" value="User" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="142.76923076923075" y="12" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_User_NextApp_0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" source="User" target="NextApp" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_User_NextApp_0_label" value="Interacts with" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="edge-L_User_NextApp_0" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_NextApp_Dashboard_1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" source="NextApp" target="Dashboard" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_NextApp_Dashboard_1_label" value="Renders" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="edge-L_NextApp_Dashboard_1" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_ThemeProvider_2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" source="Dashboard" target="ThemeProvider" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_ThemeProvider_2_label" value="Uses" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="edge-L_Dashboard_ThemeProvider_2" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_OptimizationChart_3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" source="Dashboard" target="OptimizationChart" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_OptimizationChart_3_label" value="Contains" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="edge-L_Dashboard_OptimizationChart_3" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_ProductionDemandChart_4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" source="Dashboard" target="ProductionDemandChart" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_ProductionDemandChart_4_label" value="Contains" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="edge-L_Dashboard_ProductionDemandChart_4" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_CostOptChart_5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" source="Dashboard" target="CostOptChart" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_CostOptChart_5_label" value="Contains" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="edge-L_Dashboard_CostOptChart_5" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_DemandForecastChart_6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" source="Dashboard" target="DemandForecastChart" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_DemandForecastChart_6_label" value="Contains" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="edge-L_Dashboard_DemandForecastChart_6" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_ProductionCapacityChart_7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" source="Dashboard" target="ProductionCapacityChart" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_ProductionCapacityChart_7_label" value="Contains" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="edge-L_Dashboard_ProductionCapacityChart_7" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_ProductDistributionChart_8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" source="Dashboard" target="ProductDistributionChart" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_ProductDistributionChart_8_label" value="Contains" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="edge-L_Dashboard_ProductDistributionChart_8" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_Tabs_9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" source="Dashboard" target="Tabs" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_Tabs_9_label" value="Uses" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="edge-L_Dashboard_Tabs_9" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_Cards_10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" source="Dashboard" target="Cards" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_Cards_10_label" value="Uses" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="edge-L_Dashboard_Cards_10" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_Select_11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" source="Dashboard" target="Select" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_Select_11_label" value="Uses" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="edge-L_Dashboard_Select_11" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_Slider_12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" source="Dashboard" target="Slider" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_Slider_12_label" value="Uses" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="edge-L_Dashboard_Slider_12" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_Button_13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" source="Dashboard" target="Button" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_Dashboard_Button_13_label" value="Uses" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="edge-L_Dashboard_Button_13" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_OptimizationChart_OptimizationEngine_14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" source="OptimizationChart" target="OptimizationEngine" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_OptimizationChart_OptimizationEngine_14_label" value="Receives data from" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="edge-L_OptimizationChart_OptimizationEngine_14" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_ProductionDemandChart_OptimizationEngine_15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" source="ProductionDemandChart" target="OptimizationEngine" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_ProductionDemandChart_OptimizationEngine_15_label" value="Receives data from" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="edge-L_ProductionDemandChart_OptimizationEngine_15" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_CostOptChart_OptimizationEngine_16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" source="CostOptChart" target="OptimizationEngine" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_CostOptChart_OptimizationEngine_16_label" value="Receives data from" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="edge-L_CostOptChart_OptimizationEngine_16" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_OptimizationEngine_ProductionOptimizer_17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" source="OptimizationEngine" target="ProductionOptimizer" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_OptimizationEngine_ProductionOptimizer_17_label" value="Uses" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="edge-L_OptimizationEngine_ProductionOptimizer_17" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_OptimizationEngine_ResourceAllocation_18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" source="OptimizationEngine" target="ResourceAllocation" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_OptimizationEngine_ResourceAllocation_18_label" value="Uses" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="edge-L_OptimizationEngine_ResourceAllocation_18" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_OptimizationEngine_CostCalculator_19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;" parent="1" source="OptimizationEngine" target="CostCalculator" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_OptimizationEngine_CostCalculator_19_label" value="Uses" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="edge-L_OptimizationEngine_CostCalculator_19" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
