@@ -105,8 +105,13 @@ Interfaz moderna e interactiva para la visualización de datos:
 
 ## Diagrama de la aplicación
 
-![Diagrama 1](Diagrama/1.png)  
-![Diagrama 2](Diagrama/2.png)  
+<p align="center">
+  <img src="Diagrama/1.png" alt="Diagrama 1">
+</p>
+
+<p align="center">
+  <img src="Diagrama/2.png" alt="Diagrama 2">
+</p>
 
 ---
 
