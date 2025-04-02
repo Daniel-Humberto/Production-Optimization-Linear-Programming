@@ -65,7 +65,7 @@ El BackEnd se desarrollaria en Python y estaría enfocado principalmente en **pr
 ---
 
 
-## 🧮  Modelo de Programación Lineal
+### 🧮  Modelo de Programación Lineal
 
 El modelo de programación lineal propuesto estaría desarrollado en **Python**, utilizando las librerías **SciPy**, **PuLP**, y **Scikit-Learn**, entre otras. El modelo buscara equilibrar la producción con la demanda, respetando todas las restricciones, necesidades, y objetivos, que se planteen. Por ejemplo:
 
@@ -99,7 +99,7 @@ Interfaz moderna, elegante, e interactiva, para la visualización de resultados:
 ---
 
 
-## 📊 Beneficios del Dashboard
+### 📊 Beneficios del Dashboard
 
 - **Planificación Estratégica**: Permitiría comparar la demanda con la capacidad productiva, mejorando la toma de decisiones a largo plazo.
 
@@ -127,7 +127,7 @@ Interfaz moderna, elegante, e interactiva, para la visualización de resultados:
 ---
 
 
-## 📊 Propuesta de Dashboard
+# 📊 Propuesta de Dashboard
 
 ![Imagen 1](Imagenes/1.png)  
 
